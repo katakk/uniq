@@ -40,3 +40,17 @@ sprintf %-50s %-50s %-50s っぽいかんじ
     $ tail -f log 風味
 
 ![sort](https://raw.github.com/katakk/uniq/master/doc/tailf.png)
+
+
+#### grep とか
+
+#### grep -v とか
+
+
+#### split とか
+
+#### sed -e 's/ /\n/g' とか
+
+
+
+
