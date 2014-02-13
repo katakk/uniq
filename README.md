@@ -1,11 +1,34 @@
-uniq
-====
+# uniq
+##Simplified text the editor  簡易テキストモディファイア
 
-Simplified text the editor  簡易テキストモディファイア
+ローカルで uniq sort reverse sort , splitしたかった自分用
+
+###uniq
+
+    $ cat hoge | uniq 
+
+っぽいことができる  
+
+![uniq](https://raw.github.com/katakk/uniq/master/doc/uniq.png)
+
+![uniq](https://raw.github.com/katakk/uniq/master/doc/uniqa.png)
+
+####単語ごとにuniq
 
 
-ローカルで uniq sort reverse sort , splitしたかった
+![uinqw](https://raw.github.com/katakk/uniq/master/doc/uinqwa.png)
 
-自分用
+###ずれてるの整形したりできる  
+
+sprintf %-50s %-50s %-50s っぽいかんじ  
+
+![format](https://raw.github.com/katakk/uniq/master/doc/format.png)
+
+![format](https://raw.github.com/katakk/uniq/master/doc/formata.png)
+
+####ソートできる　　
 
 
+論理ソート(StrCmpLogicalW API使う奴)と物理ソート(ただのqsort)があります　　
+
+![sort](https://raw.github.com/katakk/uniq/master/doc/sort.png)
