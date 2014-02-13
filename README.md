@@ -2,6 +2,7 @@
 
 
 ローカルで uniq sort reverse sort , splitしたかった自分用
+ちょっと`perl`でとか`tcsh`でとか`sed awk`やりたいときに素のWindowsだと`(;´Д｀)`ってなるので
 
 ###uniq
 
