@@ -39,7 +39,7 @@ sprintf %-50s %-50s %-50s っぽいかんじ
 
     $ tail -f log 風味
 
-![sort](https://raw.github.com/katakk/uniq/master/doc/tailf.png)
+![tailf](https://raw.github.com/katakk/uniq/master/doc/tailf.png)
 
 
 #### grep とか
@@ -56,5 +56,6 @@ sprintf %-50s %-50s %-50s っぽいかんじ
 すこし独自。普通の検索置換は秀丸でやればいいと思う。
 
 
+![find](https://raw.github.com/katakk/uniq/master/doc/find.png)
 
 
