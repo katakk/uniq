@@ -32,3 +32,10 @@ sprintf %-50s %-50s %-50s っぽいかんじ
 論理ソート(StrCmpLogicalW API使う奴)と物理ソート(ただのqsort)があります　　
 
 ![sort](https://raw.github.com/katakk/uniq/master/doc/sort.png)
+
+
+####ログ監視とか
+
+    $ tail -f log 風味
+
+![sort](https://raw.github.com/katakk/uniq/master/doc/tailf.png)
