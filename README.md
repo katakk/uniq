@@ -1,5 +1,5 @@
-# uniq
-##Simplified text the editor  簡易テキストモディファイア
+# uniq　  簡易テキストモディファイラ
+
 
 ローカルで uniq sort reverse sort , splitしたかった自分用
 
