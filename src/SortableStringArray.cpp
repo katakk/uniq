@@ -26,7 +26,7 @@ int CSortableStringArray::Compare(const CString * pstr1, const CString * pstr2)
 	return pstr1->Compare(*pstr2);
 }
 
-int CSortableStringArray::Reverse(const CString * pstr1, const CString * pstr2)
+int CSortableStringArray::ReverseSort(const CString * pstr1, const CString * pstr2)
 {
 	ASSERT(pstr1);
 	ASSERT(pstr2);

@@ -688,7 +688,7 @@ void CuniqView::OnReverseSort()
 {
 	CSortableStringArray sa;
 	ParseLines(sa);
-	sa.Sort(CSortableStringArray::Reverse);
+	sa.Sort(CSortableStringArray::ReverseSort);
 	StoreStringArray(sa);
 }
 

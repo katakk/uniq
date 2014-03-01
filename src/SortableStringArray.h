@@ -13,7 +13,7 @@ public:
 	void Sort(STRINGCOMPAREFN pfnCompare = Compare);
 	static int __cdecl Logical(const CString * pstr1, const CString * pstr2);
 	static int __cdecl Compare(const CString * pstr1, const CString * pstr2);
-	static int __cdecl Reverse(const CString * pstr1, const CString * pstr2);
+	static int __cdecl ReverseSort(const CString * pstr1, const CString * pstr2);
 	static int __cdecl ReverseLogical(const CString * pstr1, const CString * pstr2);
 protected:
 	static int __cdecl StrCmpLogical(const CString* pstr1, const CString* pstr2);
