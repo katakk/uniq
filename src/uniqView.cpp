@@ -380,7 +380,7 @@ void CuniqView::SaveHistory(LPCTSTR file, LPCTSTR save)
 	CFile setting(str, CFile::modeWrite | CFile::modeCreate | CFile::modeNoTruncate );
 
 	setting.SeekToEnd();
-	setting.Write(save, _tcslen(save) );
+	setting.Write(save, (UINT) _tcslen(save) );
 	setting.Write(_T("\r\n"), 2 );
 
 }
@@ -696,7 +696,7 @@ void CuniqView::OnSortLogical()
 {
 	CSortableStringArray sa;
 	ParseLines(sa);
-	sa.Sort(CSortableStringArray::Logical);
+	sa.Sort(CSortableStringArray::LogicalSort);
 	StoreStringArray(sa);
 }
 
@@ -704,7 +704,7 @@ void CuniqView::OnReverseSortLogical()
 {
 	CSortableStringArray sa;
 	ParseLines(sa);
-	sa.Sort(CSortableStringArray::ReverseLogical);
+	sa.Sort(CSortableStringArray::ReverseLogicalSort);
 	StoreStringArray(sa);
 }
 

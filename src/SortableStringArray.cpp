@@ -19,7 +19,7 @@ CSortableStringArray::~CSortableStringArray()
 
 
 // CSortableStringArray メッセージ ハンドラ
-int CSortableStringArray::Compare(const CString * pstr1, const CString * pstr2)
+int CSortableStringArray::NormalSort(const CString * pstr1, const CString * pstr2)
 {
 	ASSERT(pstr1);
 	ASSERT(pstr2);
@@ -54,7 +54,7 @@ int CSortableStringArray::StrCmpLogical(const CString* pstr1, const CString* pst
 }
 
 
-int CSortableStringArray::Logical(const CString * pstr1, const CString * pstr2)
+int CSortableStringArray::LogicalSort(const CString * pstr1, const CString * pstr2)
 {
 	ASSERT(pstr1);
 	ASSERT(pstr2);
@@ -63,7 +63,7 @@ int CSortableStringArray::Logical(const CString * pstr1, const CString * pstr2)
 }
 
 
-int CSortableStringArray::ReverseLogical(const CString * pstr1, const CString * pstr2)
+int CSortableStringArray::ReverseLogicalSort(const CString * pstr1, const CString * pstr2)
 {
 	ASSERT(pstr1);
 	ASSERT(pstr2);
