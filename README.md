@@ -1,4 +1,4 @@
-# uniq　  簡易テキストモディファイラ
+# uniq　  簡易テキストモディファイラ  [![Build status](https://ci.appveyor.com/api/projects/status/k75wglnqb6clg09n/branch/master?svg=true)](https://ci.appveyor.com/project/katakk/uniq/branch/master)
 
 
 ローカルで uniq sort reverse sort , splitしたかった自分用
